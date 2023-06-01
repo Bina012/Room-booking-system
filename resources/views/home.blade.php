@@ -13,8 +13,9 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    {{ __('You are logged in!') }}
+                        <div class="pull-right">
+                            <a class="btn btn-primary" href="{{ route('room.create') }}"> Create Room</a>
+                        </div>
                 </div>
             </div>
         </div>
